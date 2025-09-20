@@ -4,11 +4,7 @@ int main()
 {
     int n;
     printf("Enter an integer: ");
-    if (scanf("%d", &n) != 1) 
-    {
-        printf("Invalid input\n");
-        return 1;
-    }
+    scanf("%d", &n);
 
     if (n % 2 == 0)
         printf("%d is even.\n", n);
