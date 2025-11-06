@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 
-void main() {
+int main() {
     int a=0.0, b=0.0, c=0.0;
     printf("Enter two numbers: ");
     scanf("%d%d", &a, &b);
@@ -16,4 +16,6 @@ void main() {
     printf("\nAfter swapping: ");
     printf("\na = %d", a);
     printf("\nb = %d", b);
+
+    return 0;
 }
